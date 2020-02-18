@@ -1,3 +1,8 @@
+//The standard function Math.min returns its smallest argument.
+//We can build something like that now. Write a function min that takes two arguments and returns their minimum
+//Also do it for maximum also.
+
+
 var arr = [11, 9, 15, 30, 42, -19, 83];
 
 alert("Max value is " + arrayM(arr, "Max"));
