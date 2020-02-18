@@ -1,0 +1,23 @@
+var arr = [11, 9, 15, 30, 42, -19, 83];
+
+alert("Max value is " + arrayM(arr, "Max"));
+alert("Min value is " + arrayM(arr, "Min"));
+
+function arrayM(array, selector) {
+
+  var current = array[0];   // variable to hold the current max/min value.
+
+  for (var i = 1; i < array.length; i++) {
+    if (selector == "Min") {
+      if (array[i] < current) {
+        current = array[i];
+      }
+    } else if (selector == "Max") {
+      if (array[i] > current) {
+        current = array[i];
+      }
+    }
+
+  }
+  return val;
+}
